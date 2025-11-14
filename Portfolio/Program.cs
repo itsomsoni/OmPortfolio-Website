@@ -15,7 +15,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy(name: MyAllowSpecificOrigins,
                       policy =>
                       {
-                          policy.WithOrigins("http://localhost:3000") // Your React app's address
+                          policy.WithOrigins("http://localhost:3000", "https://om-portfolio-website.vercel.app/") // Your React app's address
                                 .AllowAnyHeader()
                                 .AllowAnyMethod();
                       });
