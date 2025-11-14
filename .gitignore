@@ -1,2 +1,6 @@
 /.vs
 /client/node_modules
+
+# .NET Build Artifacts
+**/bin
+**/obj
