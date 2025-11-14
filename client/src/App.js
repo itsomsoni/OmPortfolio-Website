@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import ContactForm from './ContactForm';
 import Projects from './Projects';
+import Skills from './Skills';
 
 function App() {
   return (
@@ -10,8 +11,9 @@ function App() {
         {/* App-header */}
       </header>
       <main>
-        <Projects />
-        <ContactForm />
+        <Projects />    {/* This was already here */}
+        <Skills />      {/* <-- 2. ADD THIS COMPONENT */}
+        <ContactForm /> {/* This was already here */}
       </main>
     </div>
   );
