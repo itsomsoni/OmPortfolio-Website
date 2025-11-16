@@ -27,7 +27,7 @@ const skillCategories = [
 
 function Skills() {
     return (
-        <section className="skills-section">
+        <section id="skills" className="skills-section">
             <h2>Technical Skills</h2>
             <div className="skills-grid">
                 {skillCategories.map(category => (

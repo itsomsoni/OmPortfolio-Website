@@ -31,7 +31,7 @@ const myProjects = [
 
 function Projects() {
     return (
-        <section className="projects-section">
+        <section id="projects" className="projects-section">
             <h2>My Projects</h2>
             <div className="projects-grid">
                 {/* This .map() loops over your array and creates a card for each project */}

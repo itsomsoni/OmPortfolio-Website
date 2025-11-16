@@ -39,7 +39,7 @@ function ContactForm() {
   };
 
   return (
-    <div className="form-container">
+    <div id="contact" className="form-container">
       <h2>Contact Me</h2>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
