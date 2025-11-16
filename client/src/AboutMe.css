@@ -1,0 +1,30 @@
+.about-me-section {
+    background: #007bff; /* A nice blue background */
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.about-me-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-me-content h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.about-me-content h2 {
+    font-size: 1.75rem;
+    font-weight: 300;
+    margin-bottom: 25px;
+    opacity: 0.9;
+}
+
+.professional-summary {
+    font-size: 1.15rem;
+    line-height: 1.7;
+    opacity: 0.95;
+}
